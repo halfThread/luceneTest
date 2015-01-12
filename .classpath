@@ -6,7 +6,8 @@
 	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar"/>
-	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.1.1.RELEASE/spring-beans-4.1.1.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar"/>
@@ -19,13 +20,14 @@
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-test/4.1.1.RELEASE/spring-test-4.1.1.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/aspectj/aspectjrt/1.6.8/aspectjrt-1.6.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/cglib/cglib/2.1_3/cglib-2.1_3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/asm/asm/1.5.3/asm-1.5.3.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-analyzers/3.5.0/lucene-analyzers-3.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-highlighter/3.5.0/lucene-highlighter-3.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-memory/3.5.0/lucene-memory-3.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-queries/3.5.0/lucene-queries-3.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+		
+	
+	<context:component-scan base-package="com.lhweb.lucene.aop"/>
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
+<!-- 	<aop:config> -->
+<!-- 		<aop:aspect id="redisBeforeJdbc" ref="redisBeforeJdbcAspectj"> -->
+<!-- 			<aop:pointcut id="redisBeforeJdbcPointcut" expression="execution(* com.lhweb.lucene.aop.UserDaoJdbcImpl*.*(..))" /> -->
+<!-- 			<aop:before pointcut-ref="redisBeforeJdbcPointcut" method="doBefore"/> -->
+<!-- 			<aop:after pointcut-ref="redisBeforeJdbcPointcut" method="doAfter"/> -->
+<!-- 			<aop:around pointcut-ref="redisBeforeJdbcPointcut" method="doAround"/> -->
+<!-- 		</aop:aspect> -->
+<!-- 	</aop:config> -->
+</beans>		
