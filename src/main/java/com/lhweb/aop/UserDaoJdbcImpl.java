@@ -1,4 +1,4 @@
-package com.lhweb.lucene.aop;
+package com.lhweb.aop;
 
 import java.util.ArrayList;
 import java.util.List;
